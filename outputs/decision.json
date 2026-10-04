@@ -30,6 +30,26 @@
       "p_value": 0.0003935388406586682
     }
   },
+  "guardrails": {
+    "refund_rate_difference": {
+      "effect": 0.0014901192239824418,
+      "se": 0.0034835072662484654,
+      "ci_low": -0.00533755501786455,
+      "ci_high": 0.008317793465829434,
+      "p_value": 0.6688229028939526
+    },
+    "latency_ms_difference": {
+      "effect": 7.3736095966482935,
+      "se": 1.1797970532930313,
+      "ci_low": 5.061207372193952,
+      "ci_high": 9.686011821102635,
+      "p_value": 4.1072449822939487e-10
+    }
+  },
+  "diagnostics": {
+    "srm_p_value": 0.7982567374169431,
+    "pre_spend_standardized_difference": 0.01391715770125976
+  },
   "decision": "LAUNCH",
   "required_n_for_$1_mde": 5088
 }
